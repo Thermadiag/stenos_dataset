@@ -3,13 +3,13 @@ Test/benchmark dataset for the <a href="https://github.com/Thermadiag/stenos">st
 
 This repository contains several data files used to test and/or benchmark binary compression libraries like <a href="https://github.com/Thermadiag/stenos">stenos</a> or <a href="https://github.com/Blosc/c-blosc2/tree/main">blosc</a>.
 
-All data file are in the **dataset** folder. Filenames start with a number which is the number of bytes par sample, followed by an underscore.
+All data file are in the **dataset** folder. Filenames start with the number of bytes par sample followed by an underscore.
 All files are in raw binary format, except the ones with the **.txt** suffix (ascii format).
 
 Current content:
 -	1_javascript.js: Plain javascript file (1 byte per element)
 -	1_tree_r.txt: Red component of an image (1 byte per element)
--	2_DIV.txt: Infrared image (degree celsius) of the WEST tokamak (2 bytes per element)
+-	2_DIV.txt: Infrared image (degree celsius) of the <a href="https://irfm.cea.fr/en/presentation-of-west/">WEST</a> tokamak (2 bytes per element)
 -	2_LH1.txt: Infrared image (degree celsius) of the WEST tokamak (2 bytes per element)
 -	2_WA.txt: Infrared image (degree celsius) of the WEST tokamak (2 bytes per element)
 -	2_PI240_15s.wav: Raw audio file(2 bytes per element)
